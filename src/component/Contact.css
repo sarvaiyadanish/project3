@@ -1,0 +1,89 @@
+*{
+    padding: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0%;
+}
+.contact1{
+    background-image: url(../asate/images/breadcrumb/0.breadcrumb-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    color: white;
+}
+.contact1 h5{
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    letter-spacing: 6px;
+}
+#contactt{
+    color: rgb(218, 200, 61);
+}
+.contact1 h1{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.contact2 p{
+    padding: 10px;
+}
+.main2 input{
+    width: 100%;
+}
+.contact3{
+    height: 40rem;
+}
+.main1{
+ margin-top: 1rem;
+ padding: 10px;
+ border: 1px solid rgb(89, 87, 87);
+ border-radius: 5px;
+}
+
+.section-title h2:before {
+    content: "** ";
+    width: 50px;
+    height: 2px;
+    color: rgb(10, 10, 10);
+    
+}
+.section-title h2:after {
+    content: " **";
+    width: 50px;
+    height: 2px;
+    color: rgb(10, 10, 10);
+   
+}
+.contact4{
+    text-align: center;
+}
+@media only screen and (max-width: 576px){
+    .contact1 h5 {
+        text-align: center;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+        letter-spacing: 6px;
+    }
+    .contact4{
+        margin-top: 14rem;
+     }
+}
+@media only screen and (min-width:576px){
+    .contact4{
+       margin-top: 20rem;
+    }
+   
+}
+@media only screen and (min-width:768px){
+    .contact4{
+       margin-top: 30rem;
+    }
+}
+@media only screen and (min-width:992px){
+    .contact4{
+       margin-top: 0rem;
+    }
+    .contact3{
+        padding-left: 0rem;
+    }
+}

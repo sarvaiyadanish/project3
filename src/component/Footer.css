@@ -1,0 +1,37 @@
+*{
+    padding: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0%;
+}
+
+.footer0{
+    background-color: rgba(11, 23, 84, 0.972);
+    
+}
+.footer1 h1{
+    color: rgba(194, 42, 208, 0.901);
+    letter-spacing: 2px;
+}
+.footer1 button{
+   padding: 1rem;
+   background-color: transparent;
+   margin-bottom: 2rem;
+   border: 1px solid black;
+}  
+.footer1 button:hover{
+    background-color: yellow;
+}
+.footer2{
+    color: white;
+    padding: 4rem;
+}
+.footer4{
+    color: white;
+   text-align: center;
+   padding-bottom: 3rem;
+}
+@media only screen and (max-width:576px){
+    .footer3{
+        padding: 3rem;
+    }
+}

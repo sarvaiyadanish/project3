@@ -1,0 +1,153 @@
+*{
+    padding: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0%;
+}
+.about1{
+    background-image: url(../asate/images/breadcrumb/0.breadcrumb-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    color: white;
+}
+.about1 h5{
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    letter-spacing: 6px;
+}
+#aboutt{
+    color: rgb(218, 200, 61);
+}
+.about1 h1{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.about2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.about2 p{
+    padding: 10px;
+}
+.about3{
+    
+    background-color: rgba(4, 16, 73, 0.972);
+}
+.abou4{
+    color: white;
+    letter-spacing: 1px;
+}
+.abou4 p{
+ padding-top: 20px;
+}
+/* about 2part  */
+.about4{
+    background-color: rgba(4, 16, 73, 0.972);
+    color: gray;
+}
+.about5{
+    text-align: center;
+    background-image: url(../asate/images/about/company-age-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+ 
+}
+
+
+.about8 h4 {
+    color: yellow;
+    padding-left: 10px;
+    padding-top: 3rem;
+    margin-top: -40px;
+    border-left: 1px solid yellow;
+    border-bottom: 1px solid yellow;
+   
+}
+
+#about8 h4{
+    padding-bottom: 5rem;
+    border-left: 1px solid yellow;
+}
+/* about 3 part  */
+
+.about9{
+    padding-top: 4rem;
+    background-color: rgba(4, 16, 73, 0.972);
+}
+.about10:hover{
+    background-color: yellow;
+}
+.about10{
+    padding: 2rem;
+    background-color: white;
+    color: black;
+    margin: 1rem;
+}
+.about10 h3{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+@media only screen and (max-width: 576px){
+    .about1 h5 {
+        text-align: center;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+        letter-spacing: 6px;
+    }
+    
+    .about10{
+       margin-left: 3rem;
+       margin-right: 4rem;
+    }
+    .about5 {
+        margin-left: 2rem;
+        text-align: center;
+        background-image: url(../asate/images/about/company-age-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+    .about5 img{
+        width: 53%;
+        height: 80%;
+    }
+}
+@media only screen and (min-width: 576px){
+    .about5 {
+        margin-left: 4rem;
+        text-align: center;
+        background-image: url(../asate/images/about/company-age-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    
+}
+@media only screen and (min-width: 786px){
+    .about5 {
+        margin-left: 8rem;
+        text-align: center;
+        background-image: url(../asate/images/about/company-age-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    
+}
+@media only screen and (min-width: 992px){
+    .about10 {
+        padding: 2rem;
+        background-color: white;
+        color: black;
+        margin: 0rem;
+        border: 6px solid rgba(11, 23, 84, 0.972);
+    }
+
+    .about5 {
+        margin-left: 2rem;
+        text-align: center;
+    background-image: url(../asate/images/about/company-age-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    }
+}

@@ -1,0 +1,141 @@
+*{
+    padding: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0%;
+}
+.gallary1{
+    background-image: url(../asate/images/breadcrumb/0.breadcrumb-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    color: white;
+}
+.gallary1 h5{
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    letter-spacing: 6px;
+}
+#gallaryy{
+    color: rgb(218, 200, 61);
+}
+.gallary1 h1{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.gallary2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.gallary2 p{
+    padding: 10px;
+}
+.gallary3{
+    text-align: center;
+}
+
+.section-title h2:before {
+    content: "----** ";
+    width: 50px;
+    height: 2px;
+    color: rgb(255, 24, 24);
+    
+}
+.section-title h2:after {
+    content: " **----";
+    width: 50px;
+    height: 2px;
+    color: rgb(255, 24, 24);
+   
+}
+.gall-bg{
+    background-image: url(../asate/images/gallery/1.image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+}
+.gall-bg1{
+    background-image: url(../asate/images/gallery/2.image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+}
+.gall-bg2{
+    background-image: url(../asate/images/gallery/3.image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+}
+.gall-bg3{
+    background-image: url(../asate/images/gallery/4.image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+}
+.fonta{
+    font-size: 1.50rem;
+    margin-left: 25rem;
+    margin-top: 2rem;
+}
+
+
+
+@media only screen and (max-width: 576px){
+    .gallary1 h5 {
+        text-align: center;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+        letter-spacing: 6px;
+    }
+    .gallary5{
+        margin-left: 3rem;
+       }
+       .fonta{
+        font-size: 1.50rem;
+        margin-left: 8rem;
+        margin-top: 2rem;
+    }
+}
+@media only screen and (min-width:576px){
+    .gallary5{
+     margin-left: 6rem;
+    }
+    .fonta{
+        font-size: 1.50rem;
+        margin-left: 10rem;
+        margin-top: 2rem;
+    }
+ }
+@media only screen and (min-width:768px){
+   .gallary5{
+    margin-left: 10rem;
+   }
+   .fonta{
+    font-size: 1.50rem;
+    margin-left: 18rem;
+    margin-top: 2rem;
+}
+}
+@media only screen and (min-width:992px){
+    .gallary5{
+     margin-left: 0rem;
+    }
+    .fonta{
+        font-size: 1.50rem;
+        margin-left: 22rem;
+        margin-top: 2rem;
+    }
+ }
+ @media only screen and (min-width:1200px){
+   
+    .fonta{
+        font-size: 1.50rem;
+        margin-left: 27rem;
+        margin-top: 2rem;
+    }
+ }

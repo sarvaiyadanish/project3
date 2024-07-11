@@ -1,0 +1,54 @@
+*{
+    padding: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0%;
+}
+.addevent{
+    display: inline-grid;
+    padding-bottom: 3rem;
+}
+.addevent i{
+    background-color: purple;
+    border-radius: 80px;
+    margin: 0px 12rem 0px 12rem;
+    padding: 5px;
+}
+.addevent input{
+    border-radius: 3px;
+    padding: 3px;
+    margin: 3px;
+}
+.addevent textarea{
+    border-radius: 3px;
+    padding: 3px;
+    margin: 3px;
+}
+.addevent select option{
+    border-radius: 3px;
+    padding: 3px;
+    margin: 3px;
+}
+@media only screen and (max-width:576px){
+    .addevent {
+        display: block;
+        padding-bottom: 3rem;
+    }
+    .addevent textarea{
+        width: 50%;
+        border-radius: 3px;
+        padding: 0px;
+        margin: 0px;
+    }
+}
+@media only screen and (min-width:576px){
+    .addevent {
+        display: inline-grid;
+        padding-bottom: 3rem;
+    }
+    .addevent textarea{
+        
+        border-radius: 3px;
+        padding: 0px;
+        margin: 0px;
+    }
+}

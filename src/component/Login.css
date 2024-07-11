@@ -1,0 +1,62 @@
+
+*{
+    padding: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0%;
+}
+.adminlogin{
+    background-image: url(../asate/images/1.down-arrow.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+.adminlogin1{
+    padding: 10rem 24rem 0rem 25rem;
+}
+.main2{
+    border: 1px solid white ;
+    padding-bottom: 3rem;
+}
+.main2 input{
+    width: 100%;
+}
+.main1{
+ margin-top: 1rem;
+ padding: 10px;
+ border: 1px solid rgb(116, 106, 106);
+ border-radius: 5px;
+}
+.main3{
+    margin-right: 20rem;
+}
+.main3 label{
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 576px){
+    .adminlogin1{
+        padding: 10rem 2rem 0rem 5rem;
+    }
+}
+@media only screen and (min-width:576px){
+    .adminlogin1{
+        padding: 10rem 2rem 0rem 5rem;
+    }
+   
+}
+@media only screen and (min-width:768px){
+    .adminlogin1{
+        padding: 10rem 8rem 0rem 10rem;
+    }
+}
+@media only screen and (min-width:992px){
+    .adminlogin1{
+        padding: 10rem 16rem 0rem 16rem;
+    }
+}
+@media only screen and (min-width:1200px){
+    .adminlogin1{
+        padding: 10rem 24rem 0rem 25rem;
+    }
+}
